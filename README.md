@@ -12,3 +12,5 @@ will simulate a smart meter by reading energy data from a sensor.csv file (i.e.,
 Message Broker (i.e., a queue). The timestamp is taken from the local clock, and the device_id is
 unique to each instance of the Smart Metering Device Simulator and corresponds to the device_id
 of a user from the database.
+
+I used 2 locally created backends that simulate the message producer.
